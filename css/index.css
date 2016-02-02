@@ -2,7 +2,7 @@ body {
   min-width: none;
   min-height: nonepx;
   background-color: #fbfbfb;
-  font: normal 0.813em/1.38 caption;
+  font: normal 0.813em/1.38 SFUIText-Regular;
   color: rgb(0, 0, 0);
   -webkit-transform: none;
   -moz-transform: none;
@@ -27,16 +27,51 @@ body {
   top: 23px;
   right: 16px;
   width: 8px;
+  min-width: none;
   height: auto;
+  min-height: nonepx;
   overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .content {
-  position: absolute;
-  top: 0;
-  left: 320px;
-  z-index: 16;
-  width: auto;
+  position: relative;
+  float: left;
+  z-index: 17;
+  width: 100%;
+  min-width: none;
+  min-height: nonepx;
+  padding-left: 320px;
+  border-left-style: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .content .default {
@@ -54,10 +89,18 @@ body {
   font-size: 1.154em;
 }
 
+.content .vertical-line {
+  top: 0;
+  left: 320px;
+  z-index: 16;
+  height: 487px;
+  background-color: #b1b1b1;
+}
+
 .create-new-box {
   position: relative;
   float: left;
-  z-index: 17;
+  z-index: 18;
   width: 320px;
   min-width: none;
   height: 60px;
@@ -106,7 +149,7 @@ body {
   position: absolute;
   top: 20px;
   left: 103px;
-  z-index: 18;
+  z-index: 19;
   min-width: none;
   min-height: nonepx;
   background-color: rgba(0, 0, 0, 0);
@@ -132,7 +175,9 @@ body {
 
 .default {
   width: 52px;
+  min-width: none;
   height: 15px;
+  min-height: nonepx;
   border-width: 1px;
   border-color: #0670cc #157ed7 #157ed7;
   border-style: solid;
@@ -142,6 +187,21 @@ body {
   line-height: 1.5;
   text-align: center;
   color: #ffffff;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .default-inactive {
@@ -149,53 +209,147 @@ body {
   top: 22px;
   right: 54px;
   width: 52px;
+  min-width: none;
   height: 15px;
+  min-height: nonepx;
   border: 1px solid #d4d4d4;
   border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
   font-size: 0.692em;
   line-height: 1.5;
   text-align: center;
   color: #d4d4d4;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .delete {
   display: block;
+  position: relative;
   float: left;
   clear: both;
-  width: 90%;
+  z-index: 14;
+  width: 610px;
+  min-width: none;
   height: 30px;
-  margin: 20px 0 0 15px;
+  min-height: nonepx;
+  margin: 19px 0 0 15px;
   border: 1px solid #c21f09;
   border-radius: 4px;
-  font-family: caption;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'SF UI Text';
   font-size: 0.846em;
   font-weight: 400;
   text-align: center;
   color: #c21f09;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .line {
+  position: relative;
   float: left;
   clear: both;
   width: 100%;
+  min-width: none;
   height: 1px;
+  min-height: nonepx;
+  border-style: none;
   background-color: rgb(212, 212, 212);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .profile-box {
   position: relative;
   float: right;
   width: 320px;
+  min-width: none;
   height: 60px;
+  min-height: nonepx;
   border-top: 1px solid rgb(212, 212, 212);
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .profile-box-first {
   position: relative;
   float: right;
-  z-index: 20;
+  z-index: 21;
   width: 320px;
+  min-width: none;
   height: 60px;
+  min-height: nonepx;
+  border-top-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .profile-box-1:hover,
@@ -204,92 +358,179 @@ body {
 }
 
 .profile-name {
+  min-width: none;
+  min-height: nonepx;
+  background-color: rgba(0, 0, 0, 0);
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .show-folder {
   display: block;
+  position: relative;
   float: left;
   clear: both;
-  width: 90%;
+  width: 610px;
+  min-width: none;
   height: 30px;
+  min-height: nonepx;
   margin: 10px 0 0 15px;
   border: 1px solid #b1b1b1;
   border-radius: 4px;
-  font-family: caption;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'SF UI Text';
   font-size: 0.846em;
   font-weight: 400;
   text-align: center;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .small {
+  position: relative;
   float: left;
   clear: both;
+  min-width: none;
+  min-height: nonepx;
   margin: 5px 0 0 15px;
+  background-color: rgba(0, 0, 0, 0);
   font-size: 0.846em;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .text {
+  position: relative;
   float: left;
   clear: both;
+  min-width: none;
+  min-height: nonepx;
+  background-color: rgba(0, 0, 0, 0);
   font-size: 1em;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .vertical-line {
   position: absolute;
-  top: 10px;
-  right: 40px;
   width: 1px;
-  height: 40px;
-  background-color: #d4d4d4;
 }
 
 ._container {
-  position: relative;
+  min-width: none;
+  min-height: nonepx;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .arrow-1 {
-  z-index: 23;
-}
-
-.arrow-2 {
-  z-index: 29;
-}
-
-.arrow-3 {
-  z-index: 35;
-}
-
-.arrow-4 {
-  z-index: 41;
-}
-
-.arrow-5 {
-  z-index: 47;
-}
-
-.default-1 {
-  position: absolute;
-  top: 22px;
-  right: 54px;
   z-index: 24;
 }
 
-.default-1:hover {
+.arrow-2 {
+  z-index: 30;
+}
+
+.arrow-3 {
+  z-index: 36;
+}
+
+.arrow-4 {
+  z-index: 42;
+}
+
+.arrow-5 {
+  z-index: 48;
+}
+
+.default-2 {
+  position: absolute;
+  top: 22px;
+  right: 54px;
+  z-index: 25;
+}
+
+.default-2:hover {
   border-color: #005bab;
   background-color: #0670cc;
 }
 
-.default-1:active {
+.default-2:active {
   border-color: #004480;
   background-color: #005bab;
 }
 
 .default-inactive-1 {
-  z-index: 30;
+  z-index: 31;
 }
 
 .default-inactive-1:hover {
@@ -305,74 +546,58 @@ body {
 }
 
 .default-inactive-2 {
-  z-index: 36;
+  z-index: 37;
 }
 
 .default-inactive-3 {
-  z-index: 42;
+  z-index: 43;
 }
 
 .default-inactive-4 {
-  z-index: 48;
+  z-index: 49;
 }
 
-.line-2 {
-  margin-top: 13px;
-}
-
-.line-1,
-.line-3,
-.line-4 {
+.line-1 {
+  z-index: 1;
   margin-top: 20px;
 }
 
+.line-2 {
+  z-index: 5;
+  margin-top: 13px;
+}
+
+.line-3 {
+  z-index: 9;
+  margin-top: 20px;
+}
+
+.line-4 {
+  z-index: 13;
+  margin-top: 60px;
+}
+
 .profile-box-1 {
-  z-index: 26;
+  z-index: 27;
 }
 
 .profile-box-2 {
-  z-index: 32;
+  z-index: 33;
 }
 
 .profile-box-3 {
-  z-index: 38;
+  z-index: 39;
 }
 
 .profile-box-4 {
-  z-index: 44;
-}
-
-.profile-name-1 {
-  position: absolute;
-  top: 20px;
-  left: 15px;
-  z-index: 21;
-  min-width: none;
-  min-height: nonepx;
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 1em;
-  -webkit-transform: none;
-  -moz-transform: none;
-  -o-transform: none;
-  -ms-transform: none;
-  transform: none;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  -ms-transition: none;
-  transition: none;
-  -webkit-filter: none;
-  -moz-filter: none;
-  -o-filter: none;
-  -ms-filter: none;
-  filter: none;
+  z-index: 45;
 }
 
 .profile-name-2 {
   position: absolute;
   top: 20px;
   left: 15px;
-  z-index: 27;
+  z-index: 22;
   font-size: 1em;
 }
 
@@ -380,7 +605,7 @@ body {
   position: absolute;
   top: 20px;
   left: 15px;
-  z-index: 33;
+  z-index: 28;
   font-size: 1em;
 }
 
@@ -388,7 +613,7 @@ body {
   position: absolute;
   top: 20px;
   left: 15px;
-  z-index: 39;
+  z-index: 34;
   font-size: 1em;
 }
 
@@ -396,31 +621,68 @@ body {
   position: absolute;
   top: 20px;
   left: 15px;
-  z-index: 45;
+  z-index: 40;
   font-size: 1em;
 }
 
+.profile-name-6 {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  z-index: 46;
+  font-size: 1em;
+}
+
+.show-folder-1 {
+  z-index: 8;
+  font-style: normal;
+}
+
+.show-folder-2 {
+  z-index: 12;
+}
+
+.small-1 {
+  z-index: 7;
+}
+
+.small-2 {
+  z-index: 11;
+}
+
+.text-1 {
+  z-index: 2;
+  margin: 10px 0 0 15px;
+}
+
 .text-2 {
+  z-index: 3;
   margin: 13px 0 0 15px;
 }
 
 .text-3 {
+  z-index: 4;
   margin: 13px 0 0 14px;
 }
 
 .text-4 {
+  z-index: 6;
   margin: 10px 0 0 14px;
 }
 
-.text-1,
 .text-5 {
+  z-index: 10;
   margin: 10px 0 0 15px;
 }
 
-.vertical-line-1 {
-  z-index: 22;
+.vertical-line-2 {
+  top: 10px;
+  right: 40px;
+  z-index: 23;
   min-width: none;
+  height: 40px;
   min-height: nonepx;
+  background-color: #d4d4d4;
   -webkit-transform: none;
   -moz-transform: none;
   -o-transform: none;
@@ -438,33 +700,127 @@ body {
   filter: none;
 }
 
-.vertical-line-2 {
-  z-index: 28;
-}
-
 .vertical-line-3 {
-  z-index: 34;
+  top: 10px;
+  right: 40px;
+  z-index: 29;
+  min-width: none;
+  height: 40px;
+  min-height: nonepx;
+  background-color: #d4d4d4;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .vertical-line-4 {
-  z-index: 40;
+  top: 10px;
+  right: 40px;
+  z-index: 35;
+  min-width: none;
+  height: 40px;
+  min-height: nonepx;
+  background-color: #d4d4d4;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .vertical-line-5 {
-  z-index: 46;
+  top: 10px;
+  right: 40px;
+  z-index: 41;
+  min-width: none;
+  height: 40px;
+  min-height: nonepx;
+  background-color: #d4d4d4;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.vertical-line-6 {
+  top: 10px;
+  right: 40px;
+  z-index: 47;
+  min-width: none;
+  height: 40px;
+  min-height: nonepx;
+  background-color: #d4d4d4;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 ._container-1 {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 52;
+  width: 960px;
   margin: 0 auto;
+  border-left-style: none;
 }
 
 ._container-2 {
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 51;
   width: 320px;
 }
 
 ._container-3 {
+  position: relative;
   float: left;
   width: 320px;
   height: 60px;
@@ -474,6 +830,7 @@ body {
 ._container-5,
 ._container-6,
 ._container-7 {
+  position: relative;
   float: left;
   clear: both;
   width: 320px;
@@ -489,10 +846,287 @@ body {
 }
 
 ._container-8 {
+  position: relative;
   float: left;
   clear: both;
   width: 100%;
   height: 60px;
+}
+
+@media(max-width: 960px) {
+  .content .default {
+    position: relative;
+    z-index: 15;
+  }
+
+  .content .delete {
+    position: relative;
+    z-index: 14;
+    width: 95.3125%;
+  }
+
+  .content .line,
+  .content .small,
+  .content .text {
+    position: relative;
+  }
+
+  .content .profile-name {
+    position: relative;
+    z-index: 0;
+  }
+
+  .content .show-folder {
+    position: relative;
+    width: 95.3125%;
+  }
+
+  .content .vertical-line {
+    border-style: none;
+  }
+
+  .content .line-1 {
+    z-index: 1;
+  }
+
+  .content .line-2 {
+    z-index: 5;
+  }
+
+  .content .line-3 {
+    z-index: 9;
+  }
+
+  .content .line-4 {
+    z-index: 13;
+  }
+
+  .content .show-folder-1 {
+    z-index: 8;
+  }
+
+  .content .show-folder-2 {
+    z-index: 12;
+  }
+
+  .content .small-1 {
+    z-index: 7;
+  }
+
+  .content .small-2 {
+    z-index: 11;
+  }
+
+  .content .text-1 {
+    z-index: 2;
+  }
+
+  .content .text-2 {
+    z-index: 3;
+  }
+
+  .content .text-3 {
+    z-index: 4;
+  }
+
+  .content .text-4 {
+    z-index: 6;
+  }
+
+  .content .text-5 {
+    z-index: 10;
+  }
+
+  ._container .arrow-1,
+  ._container .arrow-2,
+  ._container .arrow-3,
+  ._container .arrow-4,
+  ._container .arrow-5 {
+    height: auto;
+  }
+
+  ._container .content-1 {
+    position: relative;
+    z-index: 17;
+  }
+
+  ._container .create-new-box-1 {
+    position: relative;
+    z-index: 18;
+  }
+
+  ._container .profile-box-1 {
+    position: relative;
+    z-index: 27;
+  }
+
+  ._container .profile-box-2 {
+    position: relative;
+    z-index: 33;
+  }
+
+  ._container .profile-box-3 {
+    position: relative;
+    z-index: 39;
+  }
+
+  ._container .profile-box-4 {
+    position: relative;
+    z-index: 45;
+  }
+
+  ._container .profile-box-first-1 {
+    position: relative;
+    z-index: 21;
+  }
+
+  ._container-1 {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 640px) {
+  body {
+    font-size: 0.813em;
+  }
+
+  .content .default {
+    position: relative;
+    z-index: 15;
+  }
+
+  .content .delete {
+    position: relative;
+    z-index: 14;
+    width: 290px;
+  }
+
+  .content .line,
+  .content .small,
+  .content .text {
+    position: relative;
+  }
+
+  .content .profile-name {
+    position: relative;
+    z-index: 0;
+  }
+
+  .content .show-folder {
+    position: relative;
+    width: 290px;
+  }
+
+  .content .vertical-line {
+    height: 517px;
+  }
+
+  .content .line-1 {
+    z-index: 1;
+  }
+
+  .content .line-2 {
+    z-index: 5;
+  }
+
+  .content .line-3 {
+    z-index: 9;
+  }
+
+  .content .line-4 {
+    z-index: 13;
+  }
+
+  .content .show-folder-1 {
+    z-index: 8;
+  }
+
+  .content .show-folder-2 {
+    z-index: 12;
+  }
+
+  .content .small-1 {
+    z-index: 7;
+  }
+
+  .content .small-2 {
+    z-index: 11;
+  }
+
+  .content .text-1 {
+    z-index: 2;
+  }
+
+  .content .text-2 {
+    z-index: 3;
+  }
+
+  .content .text-3 {
+    z-index: 4;
+  }
+
+  .content .text-4 {
+    z-index: 6;
+  }
+
+  .content .text-5 {
+    z-index: 10;
+  }
+
+  ._container .arrow-1,
+  ._container .arrow-2,
+  ._container .arrow-3,
+  ._container .arrow-4,
+  ._container .arrow-5 {
+    height: auto;
+  }
+
+  ._container .content-1 {
+    position: relative;
+    z-index: 17;
+  }
+
+  ._container .create-new-box-1 {
+    position: relative;
+    z-index: 18;
+  }
+
+  ._container .profile-box-1 {
+    position: relative;
+    z-index: 27;
+  }
+
+  ._container .profile-box-2 {
+    position: relative;
+    z-index: 33;
+  }
+
+  ._container .profile-box-3 {
+    position: relative;
+    z-index: 39;
+  }
+
+  ._container .profile-box-4 {
+    position: relative;
+    z-index: 45;
+  }
+
+  ._container .profile-box-first-1 {
+    position: relative;
+    z-index: 21;
+  }
+
+  ._container-1 {
+    top: auto;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media(max-width: 639px) {
@@ -534,12 +1168,17 @@ body {
   }
 
   .content .delete {
+    position: relative;
+    float: none;
     clear: none;
-    margin-top: 0;
-    margin-left: 4.69484%;
+    z-index: 14;
+    margin-top: 324px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .content .line {
+    position: relative;
     margin-top: 0;
   }
 
@@ -550,12 +1189,7 @@ body {
     margin-left: 6px;
   }
 
-  .content .show-folder {
-    position: relative;
-    clear: none;
-    margin-top: 0;
-  }
-
+  .content .show-folder,
   .content .small {
     position: relative;
     clear: none;
@@ -563,26 +1197,27 @@ body {
   }
 
   .content .text {
+    position: relative;
     margin-top: 0;
   }
 
   .content .line-1 {
     float: right;
+    z-index: 1;
   }
 
   .content .line-2 {
-    position: relative;
     z-index: 5;
     margin-left: -3px;
   }
 
   .content .line-3 {
-    position: relative;
     z-index: 9;
     margin-left: 112px;
   }
 
   .content .line-4 {
+    z-index: 13;
     margin-left: -1px;
   }
 
@@ -607,20 +1242,17 @@ body {
   }
 
   .content .text-1 {
-    position: relative;
     z-index: 2;
     margin-left: 20px;
   }
 
   .content .text-2 {
-    position: relative;
     clear: none;
     z-index: 3;
     margin-left: 20px;
   }
 
   .content .text-3 {
-    position: relative;
     clear: none;
     z-index: 4;
     margin-left: 20px;
@@ -628,11 +1260,11 @@ body {
 
   .content .text-4 {
     clear: none;
+    z-index: 6;
     margin-left: 20px;
   }
 
   .content .text-5 {
-    position: relative;
     clear: none;
     z-index: 10;
     margin-left: 16px;
@@ -666,15 +1298,13 @@ body {
   ._container .content-1 {
     display: none;
     position: relative;
-    float: left;
-    clear: both;
-    top: auto;
-    left: auto;
+    z-index: 17;
+    margin-top: 360px;
   }
 
   ._container .create-new-box-1 {
     position: relative;
-    z-index: 17;
+    z-index: 18;
     width: 100%;
   }
 
@@ -687,39 +1317,38 @@ body {
 
   ._container .profile-box-1 {
     position: relative;
-    z-index: 26;
+    z-index: 27;
     width: 100%;
     margin-right: -0.15405%;
   }
 
   ._container .profile-box-2 {
     position: relative;
-    z-index: 32;
+    z-index: 33;
     width: 100%;
   }
 
   ._container .profile-box-3 {
     position: relative;
-    z-index: 38;
+    z-index: 39;
     width: 100%;
   }
 
   ._container .profile-box-4 {
     position: relative;
-    z-index: 44;
+    z-index: 45;
     width: 100%;
   }
 
   ._container .profile-box-first-1 {
     position: relative;
     float: left;
-    z-index: 20;
+    z-index: 21;
     width: 100%;
   }
 
   ._container-1 {
-    float: left;
-    margin-right: 0;
-    margin-left: 0;
+    left: auto;
+    right: auto;
   }
 }
