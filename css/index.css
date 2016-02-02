@@ -2,7 +2,7 @@ body {
   min-width: none;
   min-height: nonepx;
   background-color: #fbfbfb;
-  font: normal 0.813em/1.38 SFUIText-Regular;
+  font: normal 0.813em/1.38 caption;
   color: rgb(0, 0, 0);
   -webkit-transform: none;
   -moz-transform: none;
@@ -36,7 +36,7 @@ body {
   top: 0;
   left: 320px;
   z-index: 16;
-  width: 50%;
+  width: auto;
 }
 
 .content .default {
@@ -167,7 +167,7 @@ body {
   margin: 20px 0 0 15px;
   border: 1px solid #c21f09;
   border-radius: 4px;
-  font-family: 'SF UI Text';
+  font-family: caption;
   font-size: 0.846em;
   font-weight: 400;
   text-align: center;
@@ -216,7 +216,7 @@ body {
   margin: 10px 0 0 15px;
   border: 1px solid #b1b1b1;
   border-radius: 4px;
-  font-family: 'SF UI Text';
+  font-family: caption;
   font-size: 0.846em;
   font-weight: 400;
   text-align: center;
